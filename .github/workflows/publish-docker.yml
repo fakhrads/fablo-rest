@@ -5,6 +5,7 @@ on:
     branches:
       - main
     types: [closed]
+  workflow_dispatch:
 
 env:
   IMAGE_NAME: softwaremill/fablo-rest
